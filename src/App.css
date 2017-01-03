@@ -1,0 +1,65 @@
+
+.App {
+  font-family: Arial;
+  font-size: 16px;
+  padding: 27px;
+  max-width: 350px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+input[type="text"]{
+  line-height: 13px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 0 5px;
+  
+}
+.list{
+  list-style-type: none;
+  padding:0;
+  margin: 13px 0 ;
+}
+.list>li{
+  line-height:24px;
+  padding: 7px;
+  border-bottom: 1px solid gray;
+}
+.list>li>input[type="checkbox"]{
+  margin-right: 7px;
+}
+.list>li>input[type="text"]{
+  margin:0;
+  font-size: 16px;
+}
+.list>li>input[type="button"]{
+  float: right;
+}
+.mainTitle{
+  font-size: 21px;
+  font-weight: 600;
+}
+.ready{
+  color: forestgreen;
+}
+.not-ready{
+  color: brown;
+}
